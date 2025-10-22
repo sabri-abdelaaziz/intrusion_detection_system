@@ -31,3 +31,4 @@ df.to_csv(csv_file, index=False)
 # Display the saved CSV content
 print(f"Saved packet data to {csv_file}")
 print(df)
+print(df.head)
